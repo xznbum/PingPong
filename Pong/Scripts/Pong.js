@@ -9,7 +9,6 @@
     this.ballRadius = 3;
     this.score = [0, 0];
 
-    // which player am I?
     this.myPlayer = -1;
 
     this.players = [
