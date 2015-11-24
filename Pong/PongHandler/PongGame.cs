@@ -122,7 +122,7 @@ namespace Pong.PongHandler
                         MoveBall(secondsElapsed);
                         lastTime = thisTime;
 
-                        Thread.Sleep(10);
+                        Thread.Sleep(50);
 
                         // завершить задачу, если пришла отмена
                         if (cancellationToken.IsCancellationRequested)
